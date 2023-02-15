@@ -44,6 +44,28 @@
 9- git branch
     Muestra las ramas que tenemos en el proyecto y nos indica en la que estamos actualmente trabajando
 
+10- git checkout <rama>
+    Cambia nuestro proyecto a la rama especificada en <rama>, sea la principal o no.
+    Automáticamente los archivos corresponderán a esa rama, desapareciendo los que no lo sean y apareciendo los que no estuvieran en el momento actual.
+
+11- git merge <rama>
+    Realiza un commit o merge de los cambios hechos en la rama a la rama master o principal.
+
+12- git branch -d <rama>
+    Borra la rama especificada por <rama>
+
+13- git remote add <nombre remoto> <url remota>
+    Añade un nuevo repositorio en GitHub llamandose <nombre remoto> y accediéndose por la url <url remota>
+    ej. git remote add vangeyperGit https://github.com/vangeyper/vangeyperGit.git
+
+14- git branch -M <NuevoNombre>
+    Cambia el nombre de la rama principal a lo indicado en <NuevoNombre>
+
+15- git push -u <nombre remoto> <rama>
+    Sube al repositorio externo de GitHub llamado <nombre remoto> la rama especificada en <rama>
+
+
+
 
     
 
