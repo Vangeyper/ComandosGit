@@ -63,6 +63,12 @@
 
 15- git push -u origin <rama>
     Sube al repositorio externo de GitHub asociado la rama especificada en <rama>
+    Con git push también subiría los cambios al repositorio de la rama actual
+
+16- git commit -am "<comentario>"
+    Realiza un git add .   y un git commit -m "<comentario>" al mismo tiempo.
+
+
 
 
 
