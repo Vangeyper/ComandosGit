@@ -58,7 +58,7 @@
     Vincula el repositorio actual al que tenemos en GitHub con la URL de acceso: <url remota>
     ej. git remote add origin https://github.com/vangeyper/vangeyperGit.git
 
-14- git branch -M <NuevoNombre>
+14- git branch -m <NuevoNombre>
     Cambia el nombre de la rama principal a lo indicado en <NuevoNombre>
 
 15- git push -u origin <rama>
