@@ -63,11 +63,26 @@
 
 15- git push -u origin <rama>
     Sube al repositorio externo de GitHub asociado la rama especificada en <rama>
-    Con git push también subiría los cambios al repositorio de la rama actual
+    Con git push también subiría los cambios al repositorio de la rama actual      
 
 16- git commit -am "<comentario>"
     Realiza un git add .   y un git commit -m "<comentario>" al mismo tiempo.
 
+CAMBIAR URL REMOTA EN GIT
+GIT es uno de los controles de versiones de código más utilizado en todo el mundo por los desarrolladores y programadores. Es ciertos casos pueden surgir algunos inconvenientes en su uso, por ejemplo se puede tener la necesidad de cambiar la URL remota del repositorio con el cual se está trabajando actualmente.
+
+Para resolver este inconveniente en este breve tutorial te vamos a explicar cómo cambiar la URL remota con GIT, de forma tal que puedas apuntar a otro repositorio. Esto también puede ser muy útil cuando se desea cambiar de usuario a hacer un push.
+    
+Cómo cambiar la URL remota en GIT utilizando un comando
+Como veremos a continuación realizar esta acción es una tarea muy sencilla, solamente vamos a necesitar ejecutar el comando git remote set-url segudo por la nueva URL. En caso de querer indicar un nombre de usuario y una contraseña hay que remplazar el name y el password correspondiente.
+
+
+git remote set-url origin https://name:password@github.org/repo.git
+Para el caso de no querer indicar un usuario y una contraseña simplemente se puede sacar esos datos de la URL, como se muestra a continuación.
+
+
+git remote set-url origin https://github.org/repo.git
+Eso es lo que simplemente hay que hacer a la hora de cambiar la URL de un repositorio remoto, para poder hacer los push correctamente.
 
 
 
